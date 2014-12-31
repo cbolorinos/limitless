@@ -60,15 +60,8 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-rastagradient {
-background: #c90609; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #c90609 0%, #c4b925 39%, #a8aa17 64%, #213d04 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c90609), color-stop(39%,#c4b925), color-stop(64%,#a8aa17), color-stop(100%,#213d04)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg, #c90609 0%,#c4b925 39%,#a8aa17 64%,#213d04 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg, #c90609 0%,#c4b925 39%,#a8aa17 64%,#213d04 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg, #c90609 0%,#c4b925 39%,#a8aa17 64%,#213d04 100%); /* IE10+ */
-background: linear-gradient(135deg, #c90609 0%,#c4b925 39%,#a8aa17 64%,#213d04 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c90609', endColorstr='#213d04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+.bg-light-gray {
+    background-color: #d3d3d3;
 }
 
 .bg-darkest-gray {
