@@ -75,6 +75,12 @@ background: linear-gradient(to right, #e05353 0%,#e5de7e 41%,#dddd89 61%,#bde87d
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e05353', endColorstr='#bde87d',GradientType=1 ); /* IE6-9 */
 }
 
+
+/*added a max width for container*/
+.container{
+    max-width: 1000px;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
