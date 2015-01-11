@@ -81,6 +81,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e05353', end
     max-width: 1000px;
 }
 
+.col-team {
+width: 50%;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
