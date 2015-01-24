@@ -88,7 +88,12 @@ h6 {
 }
 }
 
-
+/*added a command to make the ie logo smaller when its on mobile**/
+@media(max-width:767){
+    .shrinkformobile{
+        max-height:10px;
+    }
+}
 
 /*added a max width for container*/
 .container{
@@ -226,8 +231,8 @@ fieldset[disabled] .btn-xl.active {
 
 
 .navbar-default .navbar-toggle {
-    border-color: #39F;
-    background-color: #39F;
+    border-color: #7888AC;
+    background-color: #7888AC;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -245,6 +250,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #B5BBC9;
+    text-align: right;
 }
 /** trying to fix the stupid menubar up there **/
 
