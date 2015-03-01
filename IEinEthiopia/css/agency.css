@@ -99,9 +99,15 @@ h6 {
 .container{
     max-width: 1000px;
 }
-
+@media(max-width:767){
 .col-team {
 width: 50%;
+}
+}
+@media(max-width:767){
+.col-team {
+width: 100%;
+}
 }
 
 .bg-darkest-gray {
